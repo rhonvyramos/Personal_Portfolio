@@ -1,19 +1,59 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: auto;
+    width: auto;
+}
+
 body {
-    display:flex;
+    display: flex;
     flex-direction: column;
+
+    background-image: url("/assets/black-to-blue-vertical-gradient.png");
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
 }
 
 header {
-    background-color: aquamarine;
+    background: rgba(0, 255, 255, 0.5);
     height: 100px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header section #nav_bar {
+    display: flex;
+}
+
+header section #nav_bar p {
+    padding: 10px;
+}
+
+header #logo {
+    font-size: 72px;
+    font-weight: 900;
 }
 
 #landing_page {
-    background-color: orange;
+    background: rgba(0, 127.5, 255, 0.5);
     height: 700px;
+    width: 100%;
 }
 
 footer {
-    background-color: green;
+    background: rgba(0, 0, 255, 0.5);
     height: 100px;
+    width: 100%;
+}
+
+/* styles for additional placeholder elements */
+#placeholder_block {
+    height: 80px;
+    width: 400px;
+    background-color: orange;
 }
