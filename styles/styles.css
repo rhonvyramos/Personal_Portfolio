@@ -1,0 +1,19 @@
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: aquamarine;
+    height: 100px;
+}
+
+#landing_page {
+    background-color: orange;
+    height: 700px;
+}
+
+footer {
+    background-color: green;
+    height: 100px;
+}
