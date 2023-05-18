@@ -11,6 +11,9 @@ body {
     display: flex;
     flex-direction: column;
 
+    justify-content: center;
+    align-items: center;
+
     background-image: url("/assets/black-to-blue-vertical-gradient.png");
     background-size: 100% 120%;
     background-repeat: no-repeat;
@@ -19,12 +22,17 @@ body {
 /* styling the header */
 header {
     background: rgba(0, 255, 255, 0.5);
-    height: 100px;
+    height: 10%;
     width: 100%;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    border-style: ridge;
+    border-color: white;
+
+    margin: 5px 0px;
 }
 
 header section #nav_bar {
@@ -32,15 +40,19 @@ header section #nav_bar {
 }
 
 header section #nav_bar p {
-    padding: 20px;
+    padding: 10px;
 
-    font-size: 30px;
+    font-size: 150%;
     font-weight: 900;
+
+    color: white;
 }
 
 header #logo {
-    font-size: 72px;
+    font-size: 200%;
     font-weight: 900;
+
+    color:white;
 }
 
 /* styling the middle */
@@ -48,21 +60,33 @@ header #logo {
     background: rgba(0, 127.5, 255, 0.5);
     height: 750px;
     width: 100%;
+
+    border-style: ridge;
+    border-color: white;
+
+    margin: 5px 0px;
 }
 
 /* styling the footer */
 footer {
     background: rgba(0, 0, 255, 0.5);
-    height: 100px;
+    height: 10%;
     width: 100%;
 
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+    border-style: ridge;
+    border-color: white;
+
+    margin:5px 0px;
 }
 
 footer #footer_text {
-    font-size: 24px;
+    font-size: 100%;
+    font-weight: bold;
 }
 
 /* styles for additional placeholder elements */
@@ -70,4 +94,10 @@ footer #footer_text {
     height: 80px;
     width: 400px;
     background-color: orange;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
 }
