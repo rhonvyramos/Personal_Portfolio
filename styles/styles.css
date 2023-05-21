@@ -22,7 +22,6 @@ body {
 /* styling the header */
 header {
     background: rgba(0, 0, 0, 0.5);
-    height: 10%;
     width: 100%;
 
     display: flex;
@@ -58,7 +57,7 @@ header #logo {
 /* styling the middle */
 #landing_page {
     background: rgba(0, 0, 0, 0.5);
-    height: 750px;
+    height: 40%;
     width: 100%;
 
     border-style: ridge;
@@ -72,7 +71,6 @@ header #logo {
 }
 
 #landing_page #introduction p {
-    height: 200px;
     width: 500px;
 
     margin: 50px;
@@ -93,10 +91,62 @@ header #logo {
     align-items: end;
 }
 
+/* styling the content */
+#past_experience {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+
+    border-style: ridge;
+    border-color: white;
+
+    margin: 5px 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#past_experience .content_box {
+    width: 400px;
+
+    margin: 20px;
+
+    border-style: ridge;
+    border-color: white;
+}
+
+#past_experience #backend_info {
+    font-size: 100%;
+    font-weight: bold;
+
+    color:white;
+}
+
+#past_experience #frontend_info {
+    font-size: 100%;
+    font-weight: bold;
+
+    color:white;
+}
+
+#past_experience #software_info {
+    font-size: 100%;
+    font-weight: bold;
+
+    color:white;
+}
+
+#past_experience #hardware_info {
+    font-size: 100%;
+    font-weight: bold;
+
+    color:white;
+}
+
 /* styling the footer */
 footer {
     background: rgba(0, 0, 0, 0.5);
-    height: 10%;
     width: 100%;
 
     display: flex;
@@ -125,8 +175,9 @@ footer #footer_text {
     background-color: orange;
 }
 
+/* ensures elements remain full on screen in as full view as possible */
 @media screen and (max-width: 768px) {
-    header{
+    header, #past_experience {
       flex-direction: column;
     }
 }
