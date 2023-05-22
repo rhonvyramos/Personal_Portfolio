@@ -1,4 +1,5 @@
 :root {
+    --content_shadow: 5px 5px 5px var(--shadow-color);
     --shadow-color: rgba(0, 50, 68, 0.5);
 }
 
@@ -35,7 +36,7 @@ header {
     border-style: ridge;
     border-color: white;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px var(--shadow-color);
+    box-shadow: var(--content_shadow);
 
     margin: 5px 0px;
 }
@@ -69,7 +70,7 @@ header #logo {
     border-style: ridge;
     border-color: white;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px var(--shadow-color);
+    box-shadow: var(--content_shadow);
 
     margin: 5px 0px;
 
@@ -82,7 +83,7 @@ header #logo {
     border-style: ridge;
     border-color: white;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px var(--shadow-color);
+    box-shadow: var(--content_shadow);
 
     margin-left: 20px;
 }
@@ -113,7 +114,7 @@ header #logo {
     width: 75%;
 
     border-radius: 20px;
-    box-shadow: 10px 10px 5px var(--shadow-color);
+    box-shadow: var(--content_shadow);
 }
 
 /* styling the content */
@@ -124,7 +125,7 @@ header #logo {
     border-style: ridge;
     border-color: white;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px var(--shadow-color);
+    box-shadow: var(--content_shadow);
 
     margin: 5px 0px;
 
@@ -142,7 +143,7 @@ header #logo {
     border-style: ridge;
     border-color: white;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px var(--shadow-color);
+    box-shadow: var(--content_shadow);
 }
 
 #past_experience #backend_title {
@@ -223,7 +224,7 @@ footer {
     border-style: ridge;
     border-color: white;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px var(--shadow-color);
+    box-shadow: var(--content_shadow);
 
     margin:5px 0px;
 }
