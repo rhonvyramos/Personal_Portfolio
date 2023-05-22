@@ -226,9 +226,13 @@ header #logo {
 }
 
 #past_experience #frontend_info {
-    font-size: 100%;
+    font-size: 95%;
     font-weight: bold;
+
     margin-left: 10px;
+    margin-right: 10px;
+
+    text-align: justify;
 
     color:white;
 }
