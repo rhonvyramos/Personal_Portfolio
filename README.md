@@ -7,7 +7,9 @@ This is an example of an employee's portfolio. The portfolio is a personal webpa
 Simply download the repository on your machine and run index.html on a live server.
 
 ## Use
-To be created.
+Follow the link below to see how the webpage appears to visitors:
+
+https://rhonvyramos.github.io/Personal_Portfolio/
 
 ## Screencap
 To be created.
