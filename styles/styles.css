@@ -21,7 +21,7 @@ body {
 
 /* styling the header */
 header {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 183, 255, 0.40);
     width: 100%;
 
     display: flex;
@@ -58,7 +58,7 @@ header #logo {
 
 /* styling the middle */
 #landing_page {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 183, 255, 0.40);
     height: 40%;
     width: 100%;
 
@@ -72,6 +72,15 @@ header #logo {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+#landing_page #introduction {
+    border-style: ridge;
+    border-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px;
+
+    margin-left: 20px;
 }
 
 #landing_page #introduction p {
@@ -105,7 +114,7 @@ header #logo {
 
 /* styling the content */
 #past_experience {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 183, 255, 0.40);
     width: 100%;
 
     border-style: ridge;
@@ -199,7 +208,7 @@ header #logo {
 
 /* styling the footer */
 footer {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 183, 255, 0.40);
     width: 100%;
 
     display: flex;
