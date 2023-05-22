@@ -7,7 +7,7 @@
 }
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 /* allows page to scroll smoothly when clicking links to specific content */
@@ -175,12 +175,13 @@ header #logo {
 
     border-style: ridge;
     border-color: white;
-    border-radius: 20px;
+    border-radius: 0px 20px 20px 0px;
     box-shadow: var(--content_shadow);
 
     transition: transform .1s ease-out;
 
     background-image: url("../assets/binary.png");
+    background-position: 200px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -194,7 +195,7 @@ header #logo {
     font-weight: bold;
     margin-left: 10px;
 
-    color:white;
+    color: white;
 }
 
 #past_experience #frontend_title {
@@ -225,8 +226,11 @@ header #logo {
     font-size: 100%;
     font-weight: bold;
     margin-left: 10px;
+    margin-right: 200px;
 
-    color:white;
+    background-color: white;
+
+    color:black;
 }
 
 #past_experience #frontend_info {
@@ -234,27 +238,34 @@ header #logo {
     font-weight: bold;
 
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 200px;
 
-    text-align: justify;
+    background-color: white;
 
-    color:white;
+    color:black;
 }
 
 #past_experience #software_info {
     font-size: 100%;
     font-weight: bold;
+    
     margin-left: 10px;
+    margin-right: 200px;
 
-    color:white;
+    background-color: white;
+
+    color:black;
 }
 
 #past_experience #hardware_info {
     font-size: 100%;
     font-weight: bold;
     margin-left: 10px;
+    margin-right: 200px;
 
-    color:white;
+    background-color: white;
+
+    color:black;
 }
 
 /* styling the footer */
