@@ -68,6 +68,15 @@ header section #nav_bar p {
     transform: var(--transform-distance);
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
 header #logo {
     font-size: 200%;
     font-weight: 900;
@@ -100,6 +109,7 @@ header #logo {
     box-shadow: var(--content_shadow);
 
     margin-left: 50px;
+    margin-right: 50px;
 
     transition: transform .1s ease-out;
 }
@@ -111,7 +121,8 @@ header #logo {
 #landing_page #introduction p {
     width: 500px;
 
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 
     font-size: 24px;
     line-height: 40px;
