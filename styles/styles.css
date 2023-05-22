@@ -59,6 +59,12 @@ header section #nav_bar p {
     font-weight: 900;
 
     color: white;
+
+    transition: transform .1s ease-out;
+}
+
+#nav_bar p:hover {
+    transform: translate(-10px, -10px);
 }
 
 header #logo {
@@ -92,7 +98,13 @@ header #logo {
     border-radius: 20px;
     box-shadow: var(--content_shadow);
 
-    margin-left: 20px;
+    margin-left: 50px;
+
+    transition: transform .1s ease-out;
+}
+
+#landing_page #introduction:hover {
+    transform: translate(-10px, -10px);
 }
 
 #landing_page #introduction p {
@@ -152,6 +164,12 @@ header #logo {
     border-color: white;
     border-radius: 20px;
     box-shadow: var(--content_shadow);
+
+    transition: transform .1s ease-out;
+}
+
+#past_experience .content_box:hover {
+    transform: translate(-10px, -10px);
 }
 
 #past_experience #backend_title {
@@ -254,13 +272,18 @@ footer #scroll_to_top_button {
     border-color: white;
     border-radius: 20px;
     box-shadow: var(--content_shadow);
+
+    transition: transform .1s ease-out;
+}
+
+footer #scroll_to_top_button:hover {
+    transform: translate(-10px, -10px);
 }
 
 footer #scroll_to_top_button p {
     margin-left: 5px;
     margin-right: 5px;
 }
-
 
 /* styles for additional placeholder elements */
 #placeholder_block {
