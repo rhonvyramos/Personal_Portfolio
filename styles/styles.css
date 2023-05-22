@@ -241,4 +241,8 @@ footer #footer_text {
     #landing_page {
       flex-direction: column;
     }
+
+    #landing_page #landing_image  {
+        justify-content: center;
+    }
 }
