@@ -3,6 +3,7 @@
 :root {
     --content_shadow: 5px 5px 5px var(--shadow-color);
     --shadow-color: rgba(0, 50, 68, 0.5);
+    --transform-distance: translate(0px, -5px);
 }
 
 /* allows page to scroll smoothly when clicking links to specific content */
@@ -64,7 +65,7 @@ header section #nav_bar p {
 }
 
 #nav_bar p:hover {
-    transform: translate(-10px, -10px);
+    transform: var(--transform-distance);
 }
 
 header #logo {
@@ -104,7 +105,7 @@ header #logo {
 }
 
 #landing_page #introduction:hover {
-    transform: translate(-10px, -10px);
+    transform: var(--transform-distance);
 }
 
 #landing_page #introduction p {
@@ -169,7 +170,7 @@ header #logo {
 }
 
 #past_experience .content_box:hover {
-    transform: translate(-10px, -10px);
+    transform: var(--transform-distance);
 }
 
 #past_experience #backend_title {
@@ -277,7 +278,7 @@ footer #scroll_to_top_button {
 }
 
 footer #scroll_to_top_button:hover {
-    transform: translate(-10px, -10px);
+    transform: var(--transform-distance);
 }
 
 footer #scroll_to_top_button p {
