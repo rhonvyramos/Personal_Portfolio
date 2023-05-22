@@ -1,6 +1,13 @@
+
+/* variables for frequently used values */
 :root {
     --content_shadow: 5px 5px 5px var(--shadow-color);
     --shadow-color: rgba(0, 50, 68, 0.5);
+}
+
+/* allows page to scroll smoothly when clicking links to specific content */
+html {
+    scroll-behavior: smooth;
 }
 
 * {
@@ -113,6 +120,7 @@ header #logo {
     height: 75%;
     width: 75%;
 
+    border-style: ridge;
     border-radius: 20px;
     box-shadow: var(--content_shadow);
 }
@@ -149,7 +157,6 @@ header #logo {
 #past_experience #backend_title {
     font-size: 200%;
     font-weight: bold;
-
     margin-left: 10px;
 
     color:white;
