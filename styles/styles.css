@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-image: url("/assets/black-to-blue-vertical-gradient.png");
+    background-image: url("/assets/white_light_blue_background.png");
     background-size: 100% 120%;
     background-repeat: no-repeat;
 }
@@ -30,6 +30,8 @@ header {
 
     border-style: ridge;
     border-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px;
 
     margin: 5px 0px;
 }
@@ -62,6 +64,8 @@ header #logo {
 
     border-style: ridge;
     border-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px;
 
     margin: 5px 0px;
 
@@ -106,6 +110,8 @@ header #logo {
 
     border-style: ridge;
     border-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px;
 
     margin: 5px 0px;
 
@@ -122,11 +128,15 @@ header #logo {
 
     border-style: ridge;
     border-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px;
 }
 
 #past_experience #backend_title {
     font-size: 200%;
     font-weight: bold;
+
+    margin-left: 10px;
 
     color:white;
 }
@@ -134,6 +144,7 @@ header #logo {
 #past_experience #frontend_title {
     font-size: 200%;
     font-weight: bold;
+    margin-left: 10px;
 
     color:white;
 }
@@ -141,6 +152,7 @@ header #logo {
 #past_experience #software_title {
     font-size: 200%;
     font-weight: bold;
+    margin-left: 10px;
 
     color:white;
 }
@@ -148,6 +160,7 @@ header #logo {
 #past_experience #hardware_title {
     font-size: 200%;
     font-weight: bold;
+    margin-left: 10px;
 
     color:white;
 }
@@ -155,6 +168,7 @@ header #logo {
 #past_experience #backend_info {
     font-size: 100%;
     font-weight: bold;
+    margin-left: 10px;
 
     color:white;
 }
@@ -162,6 +176,7 @@ header #logo {
 #past_experience #frontend_info {
     font-size: 100%;
     font-weight: bold;
+    margin-left: 10px;
 
     color:white;
 }
@@ -169,6 +184,7 @@ header #logo {
 #past_experience #software_info {
     font-size: 100%;
     font-weight: bold;
+    margin-left: 10px;
 
     color:white;
 }
@@ -176,6 +192,7 @@ header #logo {
 #past_experience #hardware_info {
     font-size: 100%;
     font-weight: bold;
+    margin-left: 10px;
 
     color:white;
 }
@@ -192,6 +209,8 @@ footer {
 
     border-style: ridge;
     border-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px;
 
     margin:5px 0px;
 }
