@@ -224,7 +224,6 @@ footer {
     width: 100%;
 
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
@@ -243,6 +242,25 @@ footer #footer_text {
 
     color:white;
 }
+
+footer #scroll_to_top_button {
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+
+    color:white;
+
+    border-style: ridge;
+    border-color: white;
+    border-radius: 20px;
+    box-shadow: var(--content_shadow);
+}
+
+footer #scroll_to_top_button p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 
 /* styles for additional placeholder elements */
 #placeholder_block {
