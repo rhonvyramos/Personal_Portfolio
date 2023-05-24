@@ -69,13 +69,8 @@ header section #nav_bar p {
     filter: brightness(150%);
 }
 
-a:link {
+a:link, a:visited {
     color:white;
-    text-decoration: none;
-}
-
-a:visited {
-    color: white;
     text-decoration: none;
 }
 
@@ -192,7 +187,7 @@ header #logo {
     filter: brightness(150%);
 }
 
-#past_experience #backend_title {
+#past_experience .title_box {
     font-size: 200%;
     font-weight: bold;
     margin-left: 10px;
@@ -200,66 +195,7 @@ header #logo {
     color: white;
 }
 
-#past_experience #frontend_title {
-    font-size: 200%;
-    font-weight: bold;
-    margin-left: 10px;
-
-    color:white;
-}
-
-#past_experience #software_title {
-    font-size: 200%;
-    font-weight: bold;
-    margin-left: 10px;
-
-    color:white;
-}
-
-#past_experience #hardware_title {
-    font-size: 200%;
-    font-weight: bold;
-    margin-left: 10px;
-
-    color:white;
-}
-
-#past_experience #backend_info {
-    font-size: 100%;
-    font-weight: bold;
-    margin-left: 10px;
-    margin-right: 200px;
-
-    background-color: white;
-
-    color:black;
-}
-
-#past_experience #frontend_info {
-    font-size: 95%;
-    font-weight: bold;
-
-    margin-left: 10px;
-    margin-right: 200px;
-
-    background-color: white;
-
-    color:black;
-}
-
-#past_experience #software_info {
-    font-size: 100%;
-    font-weight: bold;
-    
-    margin-left: 10px;
-    margin-right: 200px;
-
-    background-color: white;
-
-    color:black;
-}
-
-#past_experience #hardware_info {
+#past_experience .experience_info {
     font-size: 100%;
     font-weight: bold;
     margin-left: 10px;
@@ -318,13 +254,6 @@ footer #scroll_to_top_button:hover {
 footer #scroll_to_top_button p {
     margin-left: 5px;
     margin-right: 5px;
-}
-
-/* styles for additional placeholder elements */
-#placeholder_block {
-    height: 400px;
-    width: 400px;
-    background-color: orange;
 }
 
 /* ensures elements remain full on screen in as full view as possible */
