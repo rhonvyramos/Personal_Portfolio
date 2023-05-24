@@ -47,7 +47,7 @@ body {
     box-shadow: var(--content_shadow);
 }
 
-/* styling the header */
+/* styling the elements presenting the header and nav bar */
 header {
     margin: 5px 0px;
 }
@@ -84,7 +84,7 @@ header #logo {
     color:white;
 }
 
-/* styling the middle */
+/* styling the elements presenting the introduction and image */
 #landing_page {
     margin: 5px 0px;
 
@@ -140,7 +140,7 @@ header #logo {
     box-shadow: var(--content_shadow);
 }
 
-/* styling the content */
+/* styling the elements presenting past experience */
 #past_experience {
 
 
@@ -194,20 +194,8 @@ header #logo {
     color:black;
 }
 
-/* styling the footer */
+/* styling the elements presenting the footer and contact information */
 footer {
-    background: rgba(0, 183, 255, 0.40);
-    width: 100%;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    border-style: ridge;
-    border-color: white;
-    border-radius: 20px;
-    box-shadow: var(--content_shadow);
-
     margin:5px 0px;
 }
 
