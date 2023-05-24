@@ -12,4 +12,4 @@ Follow the link below to see how the webpage appears to visitors:
 https://rhonvyramos.github.io/Personal_Portfolio/
 
 ## Screencap
-![image](https://github.com/rhonvyramos/Personal_Portfolio/assets/126701940/420e5cb2-4e86-4ace-a1db-5a2a9e0d0229)
+![image](https://github.com/rhonvyramos/Personal_Portfolio/assets/126701940/378deeaf-3cb2-4eae-b5cc-25b3c7ba5ec8)
