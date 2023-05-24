@@ -32,8 +32,8 @@ body {
     background-repeat: no-repeat;
 }
 
-/* styling the header */
-header {
+/* base style for page elements */
+.content_holder {
     background: rgba(0, 183, 255, 0.40);
     width: 100%;
 
@@ -45,7 +45,10 @@ header {
     border-color: white;
     border-radius: 20px;
     box-shadow: var(--content_shadow);
+}
 
+/* styling the header */
+header {
     margin: 5px 0px;
 }
 
@@ -83,15 +86,6 @@ header #logo {
 
 /* styling the middle */
 #landing_page {
-    background: rgba(0, 183, 255, 0.40);
-    height: 40%;
-    width: 100%;
-
-    border-style: ridge;
-    border-color: white;
-    border-radius: 20px;
-    box-shadow: var(--content_shadow);
-
     margin: 5px 0px;
 
     display: flex;
@@ -148,13 +142,7 @@ header #logo {
 
 /* styling the content */
 #past_experience {
-    background: rgba(0, 183, 255, 0.40);
-    width: 100%;
 
-    border-style: ridge;
-    border-color: white;
-    border-radius: 20px;
-    box-shadow: var(--content_shadow);
 
     margin: 5px 0px;
 
