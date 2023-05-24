@@ -47,6 +47,14 @@ body {
     box-shadow: var(--content_shadow);
 }
 
+/* used to style content with base border only */
+.content_border {
+    border-style: ridge;
+    border-color: white;
+    border-radius: 20px;
+    box-shadow: var(--content_shadow);
+}
+
 /* styling the elements presenting the header and nav bar */
 header {
     margin: 5px 0px;
@@ -94,11 +102,6 @@ header #logo {
 }
 
 #landing_page #introduction {
-    border-style: ridge;
-    border-color: white;
-    border-radius: 20px;
-    box-shadow: var(--content_shadow);
-
     margin-left: 50px;
     margin-right: 50px;
 
@@ -142,8 +145,6 @@ header #logo {
 
 /* styling the elements presenting past experience */
 #past_experience {
-
-
     margin: 5px 0px;
 
     display: flex;
@@ -213,11 +214,6 @@ footer #scroll_to_top_button {
     text-align: center;
 
     color:white;
-
-    border-style: ridge;
-    border-color: white;
-    border-radius: 20px;
-    box-shadow: var(--content_shadow);
 
     transition: transform .1s ease-out;
 }
