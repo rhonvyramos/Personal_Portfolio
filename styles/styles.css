@@ -66,6 +66,7 @@ header section #nav_bar p {
 
 #nav_bar p:hover {
     transform: var(--transform-distance);
+    filter: brightness(150%);
 }
 
 a:link {
@@ -188,6 +189,7 @@ header #logo {
 
 #past_experience .content_box:hover {
     transform: var(--transform-distance);
+    filter: brightness(150%);
 }
 
 #past_experience #backend_title {
@@ -310,6 +312,7 @@ footer #scroll_to_top_button {
 
 footer #scroll_to_top_button:hover {
     transform: var(--transform-distance);
+    filter: brightness(150%);
 }
 
 footer #scroll_to_top_button p {
